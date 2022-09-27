@@ -1,0 +1,167 @@
+// Terkelsen's Marimba
+// Contributed by: Lars Terkelsen
+//
+// Converted from the original GigaSampler version and cleaned samples by S. Christian Collins
+// www.schristiancollins.com
+// Crossfade added by Jeff Learman.  The crossfade makes the timbre change smoothly with velocity.
+
+<control>
+default_path=samples/
+octave_offset=2
+
+<global>
+ampeg_release=6
+
+<group> group_volume=6 lovel=1 xfout_lovel=21 xfout_hivel=64
+<region> sample=24 p.wav  hikey=24 pitch_keycenter=24 lokey=10
+<region> sample=25 p.wav  key=25
+<region> sample=26 p.wav  key=26
+<region> sample=27 p.wav  key=27
+<region> sample=28 p.wav  key=28
+<region> sample=29 p.wav  key=29
+<region> sample=30 p.wav  key=30
+<region> sample=31 p.wav  key=31
+<region> sample=32 p.wav  key=32
+<region> sample=33 p.wav  key=33
+<region> sample=34 p.wav  key=34
+<region> sample=35 p.wav  key=35
+<region> sample=36 p.wav  key=36
+<region> sample=37 p.wav  key=37
+<region> sample=38 p.wav  key=38  volume=2
+<region> sample=39 p.wav  key=39
+<region> sample=40 p.wav  key=40  volume=3
+<region> sample=41 p.wav  key=41
+<region> sample=42 p.wav  key=42
+<region> sample=43 p.wav  key=43  volume=2
+<region> sample=44 p.wav  key=44
+<region> sample=45 p.wav  key=45
+<region> sample=46 p.wav  key=46
+<region> sample=47 p.wav  key=47
+<region> sample=48 p.wav  key=48
+<region> sample=49 p.wav  key=49
+<region> sample=50 p.wav  key=50
+<region> sample=51 p.wav  key=51
+<region> sample=52 p.wav  key=52
+<region> sample=53 p.wav  key=53
+<region> sample=54 p.wav  key=54
+<region> sample=55 p.wav  key=55
+<region> sample=56 p.wav  key=56
+<region> sample=57 p.wav  key=57
+<region> sample=58 p.wav  key=58
+<region> sample=59 p.wav  key=59
+<region> sample=60 p.wav  key=60
+<region> sample=61 p.wav  key=61
+<region> sample=62 p.wav  key=62
+<region> sample=63 p.wav  key=63  volume=3
+<region> sample=64 p.wav  key=64  volume=10
+<region> sample=65 p.wav  key=65
+<region> sample=66 p.wav  key=66
+<region> sample=67 p.wav  key=67  volume=3
+<region> sample=68 p.wav  key=68  volume=1
+<region> sample=69 p.wav  key=69  volume=3
+<region> sample=70 p.wav  key=70
+<region> sample=71 p.wav  key=71
+<region> sample=72 p.wav  key=72  volume=4
+
+<group> xfin_lovel=22 xfin_hivel=64 xfout_lovel=65 xfout_hivel=108
+<region> sample=24 m.wav  hikey=24 pitch_keycenter=24 lokey=10
+<region> sample=25 m.wav  key=25
+<region> sample=26 m.wav  key=26
+<region> sample=27 m.wav  key=27
+<region> sample=28 m.wav  key=28
+<region> sample=29 m.wav  key=29
+<region> sample=30 m.wav  key=30
+<region> sample=31 m.wav  key=31
+<region> sample=32 m.wav  key=32
+<region> sample=33 m.wav  key=33
+<region> sample=34 m.wav  key=34
+<region> sample=35 m.wav  key=35
+<region> sample=36 m.wav  key=36
+<region> sample=37 m.wav  key=37
+<region> sample=38 m.wav  key=38
+<region> sample=39 m.wav  key=39
+<region> sample=40 m.wav  key=40
+<region> sample=41 m.wav  key=41
+<region> sample=42 m.wav  key=42
+<region> sample=43 m.wav  key=43
+<region> sample=44 m.wav  key=44
+<region> sample=45 m.wav  key=45
+<region> sample=46 m.wav  key=46
+<region> sample=47 m.wav  key=47
+<region> sample=48 m.wav  key=48
+<region> sample=49 m.wav  key=49
+<region> sample=50 m.wav  key=50
+<region> sample=51 m.wav  key=51  volume=5
+<region> sample=52 m.wav  key=52
+<region> sample=53 m.wav  key=53
+<region> sample=54 m.wav  key=54
+<region> sample=55 m.wav  key=55
+<region> sample=56 m.wav  key=56
+<region> sample=57 m.wav  key=57
+<region> sample=58 m.wav  key=58
+<region> sample=59 m.wav  key=59
+<region> sample=60 m.wav  key=60
+<region> sample=61 m.wav  key=61
+<region> sample=62 m.wav  key=62
+<region> sample=63 m.wav  key=63
+<region> sample=64 m.wav  key=64
+<region> sample=65 m.wav  key=65
+<region> sample=66 m.wav  key=66
+<region> sample=67 m.wav  key=67
+<region> sample=68 m.wav  key=68
+<region> sample=69 m.wav  key=69  volume=-1.5
+<region> sample=70 m.wav  key=70
+<region> sample=71 m.wav  key=71
+<region> sample=72 m.wav  key=72  volume=-2
+
+
+<group> hivel=127 xfin_lovel=65 xfin_hivel=108
+<region> sample=24 f.wav  hikey=24 pitch_keycenter=24 lokey=10
+<region> sample=25 f.wav  key=25
+<region> sample=26 f.wav  key=26
+<region> sample=27 f.wav  key=27
+<region> sample=28 f.wav  key=28
+<region> sample=29 f.wav  key=29
+<region> sample=30 f.wav  key=30
+<region> sample=31 f.wav  key=31
+<region> sample=32 f.wav  key=32
+<region> sample=33 f.wav  key=33
+<region> sample=34 f.wav  key=34
+<region> sample=35 f.wav  key=35
+<region> sample=36 f.wav  key=36
+<region> sample=37 f.wav  key=37
+<region> sample=38 f.wav  key=38
+<region> sample=39 f.wav  key=39
+<region> sample=40 f.wav  key=40
+<region> sample=41 f.wav  key=41
+<region> sample=42 f.wav  key=42
+<region> sample=43 f.wav  key=43
+<region> sample=44 f.wav  key=44
+<region> sample=45 f.wav  key=45  volume=0.687
+<region> sample=46 f.wav  key=46
+<region> sample=47 f.wav  key=47
+<region> sample=48 f.wav  key=48
+<region> sample=49 f.wav  key=49  volume=0.964
+<region> sample=50 f.wav  key=50
+<region> sample=51 f.wav  key=51  volume=0.065
+<region> sample=52 f.wav  key=52
+<region> sample=53 f.wav  key=53  volume=2.17
+<region> sample=54 f.wav  key=54
+<region> sample=55 f.wav  key=55
+<region> sample=56 f.wav  key=56
+<region> sample=57 f.wav  key=57
+<region> sample=58 f.wav  key=58
+<region> sample=59 f.wav  key=59  volume=2
+<region> sample=60 f.wav  key=60
+<region> sample=61 f.wav  key=61
+<region> sample=62 f.wav  key=62
+<region> sample=63 f.wav  key=63
+<region> sample=64 f.wav  key=64
+<region> sample=65 f.wav  key=65
+<region> sample=66 f.wav  key=66
+<region> sample=67 f.wav  key=67
+<region> sample=68 f.wav  key=68
+<region> sample=69 f.wav  key=69
+<region> sample=70 f.wav  key=70
+<region> sample=71 f.wav  key=71
+<region> sample=72 f.wav  key=72
